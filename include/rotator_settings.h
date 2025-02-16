@@ -2,7 +2,7 @@
 /* -------------------------- rotation settings ---------------------------------------*/
 
 #define AZIMUTH_STARTING_POINT_EEPROM_INITIALIZE 0      // the starting point in degrees of the azimuthal rotator - only used for initializing EEPROM the first time the code is run
-#define AZIMUTH_ROTATION_CAPABILITY_EEPROM_INITIALIZE 450 // the default rotation capability of the rotator in degrees - only used for initializing EEPROM the first time the code is run
+#define AZIMUTH_ROTATION_CAPABILITY_EEPROM_INITIALIZE 440 // the default rotation capability of the rotator in degrees - only used for initializing EEPROM the first time the code is run
 
 /* 
 
@@ -259,8 +259,8 @@ You can tweak these, but read the online documentation!
  *
  */
 
-#define AZIMUTH_CALIBRATION_FROM_ARRAY {180,630}            /* these are in "raw" degrees, i.e. when going east past 360 degrees, add 360 degrees*/
-#define AZIMUTH_CALIBRATION_TO_ARRAY {180,630}
+#define AZIMUTH_CALIBRATION_FROM_ARRAY {91,183,276,362}            /* these are in "raw" degrees, i.e. when going east past 360 degrees, add 360 degrees*/
+#define AZIMUTH_CALIBRATION_TO_ARRAY {90,180,270,360}
 
 // example: reverse rotation sensing
 //   #define AZIMUTH_CALIBRATION_FROM_ARRAY {0,359}

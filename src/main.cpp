@@ -1968,6 +1968,8 @@ void initiate_park();
 
 void deactivate_park();
 
+float correct_azimuth(float);
+
 /* ------------------ let's start doing some stuff now that we got the formalities out of the way --------------------*/
 
 void setup() {
