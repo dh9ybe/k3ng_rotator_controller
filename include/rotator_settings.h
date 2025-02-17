@@ -259,8 +259,8 @@ You can tweak these, but read the online documentation!
  *
  */
 
-#define AZIMUTH_CALIBRATION_FROM_ARRAY {91,183,276,362}            /* these are in "raw" degrees, i.e. when going east past 360 degrees, add 360 degrees*/
-#define AZIMUTH_CALIBRATION_TO_ARRAY {90,180,270,360}
+#define AZIMUTH_CALIBRATION_FROM_ARRAY {0,91,183,276,362,440}            /* these are in "raw" degrees, i.e. when going east past 360 degrees, add 360 degrees*/
+#define AZIMUTH_CALIBRATION_TO_ARRAY {0,90,180,270,360,440}
 
 // example: reverse rotation sensing
 //   #define AZIMUTH_CALIBRATION_FROM_ARRAY {0,359}
